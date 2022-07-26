@@ -1,0 +1,35 @@
+{
+  "name": "glinus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsnd -r tsconfig-paths/register --respawn --transpile-only --ignore-watch /node_modules/ src/server.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/colors": "^1.2.1",
+    "@types/node": "^17.0.35",
+    "@types/promise-poller": "^1.7.1",
+    "@types/request-promise-native": "^1.0.18",
+    "@typescript-eslint/eslint-plugin": "^5.31.0",
+    "@typescript-eslint/parser": "^5.31.0",
+    "eslint": "^8.16.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "ts-node-dev": "^1.1.8",
+    "tsconfig-paths": "^4.0.0",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.1",
+    "eslint-plugin-import-helpers": "^1.2.1",
+    "playwright": "^1.22.2",
+    "promise-poller": "^1.9.1",
+    "request-promise-native": "^1.0.9"
+  }
+}
